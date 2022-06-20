@@ -1,0 +1,207 @@
+.blog {
+    padding: 130px 0;
+    background: #09081e;
+}
+
+.blog h2 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #DC145C;
+    margin-bottom: 60px;
+}
+
+.blog .box {
+    border-radius: 10px;
+    background: #1f1d41;
+}
+
+.blog .box .image {
+    position: relative;
+}
+
+.blog .box .image img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.blog .box .image:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+
+.blog .box .image a {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 5px 20px;
+    color: #ffffff;
+    background: #9c760e;
+    border-radius: 35px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.blog .box .text {
+    padding: 25px;
+}
+
+.blog .box h3 a {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #FCFF60;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.blog .box h4 {
+    font-size: 13px;
+    font-weight: 300;
+    color: #f9f9f9;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.blog .box p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #bdbfc0;
+    line-height: 26px;
+}
+
+.article-info{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    background: #DC145C;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.5s;
+}
+
+.author-name {
+    font-size: 24px;
+    color: #FCFF60;
+}
+
+.reference{
+    text-decoration: none;
+    color: none;
+}
+
+.article-info:hover {
+    background: #c20e50;
+    transition: 0.5s;
+}
+
+@media (max-width: 575.99px) {
+    .slider {
+        height: calc(100vh - 80px);
+        margin-top: 80px;
+    }
+
+    .slider img {
+        display: none;
+    }
+
+    .navbar {
+        padding: 20px;
+    }
+
+    .animated-headlines .cd-headline span {
+        font-size: 30px;
+    }
+
+    .about-me {
+        padding: 130px 25px;
+    }
+    .about-me img {
+        margin-bottom: 30px;
+    }
+    .about-me .btn-1 {
+        margin-bottom: 30px;
+    }
+
+    .some-facts .items h4 {
+        margin-bottom: 30px;
+    }
+
+    .blog .box {
+        margin-bottom: 30px;
+    }
+
+    .contact .info {
+        padding: 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+     .slider {
+        height: calc(100vh - 80px);
+        margin-top: 80px;
+     }
+
+    .slider .left-content {
+        padding: 0;
+        margin: 0;
+    }
+
+    .animated-headlines .cd-headline span {
+        font-size: 30px;
+    }
+
+    .about-me img {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .some-facts .items h4 {
+        margin-bottom: 30px;
+    }
+
+    .blog .box {
+        margin-bottom: 30px;
+    }
+
+    .contact .info {
+        padding: 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .animated-headlines .cd-headline span {
+        font-size: 30px;
+    }
+
+    .slider .left-content {
+        padding: 140px 0;
+    }
+
+    .some-facts .items h4 {
+        margin-bottom: 30px;
+    }
+
+    .blog .box {
+        margin-bottom: 30px;
+    }
+
+    .blog {
+        padding-bottom: 90px;
+    }
+
+    .about-me img {
+        display: none;
+    }
+}
+
+@media (max-width: 1199.98px) {
+}

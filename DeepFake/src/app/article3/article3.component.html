@@ -1,0 +1,68 @@
+<section class="blog" id="blog">
+    <!-- Info 3 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="box">
+                    <div class="image">
+                        <img src={{blog3}} alt="">
+                    </div>
+                    <div class="text">
+                        <h3 class="author-name">Detection of Deep Fake Video Manipulation</h3>
+                        <h4>By Charles Garcia, May 02, 2022</h4>
+                        <p>The Deep fake algorithm allows a user to photo realistically swap the face of one actor in a
+                            video with the face of another. This raises forensic issues in terms of video evidence
+                            dependability. Photo response non uniformity (PRNU) analysis is examined for its efficiency
+                            at identifying Deep fake video tampering as part of a solution. The PRNU study reveals a
+                            substantial difference between real and Deep fake films in mean normalized cross correlation
+                            scores.<br><br>
+
+                            Photo Response Non Uniformity (PRNU) analysis to Deep fakes in order to determine the
+                            method's accuracy and simplicity of use in identifying Deep fake manipulation. A digital
+                            image's PRNU pattern is a noise pattern caused by tiny production faults in a digital
+                            camera's light sensitive sensors. This noise pattern is quite distinctive, and it's commonly
+                            referred to as the digital image's fingerprint. Because it is believed that manipulating the
+                            face area will influence the local PRNU pattern in the video frames, PRNU analysis is
+                            regarded a method of interest.<br><br>
+
+                            Using the program 'FFmpeg', the movies are converted into a series of frames as PNGs,
+                            labeled sequentially, and stored in labelled folders. The frames will be cropped to frame
+                            the face, again using 'FFmpeg', to highlight the relevance of the predicted shift in PRNU
+                            pattern in the facial portion of the frame. To keep the part of the PRNU pattern that is
+                            analyzed identical between each cropped frame, each frame of a movie is cropped by the same
+                            pixels. <br><br>
+
+                            The frames are then separated into eight equal-sized groups and an average PRNU pattern is
+                            generated for each group using the second order (FSTV) approach using the program
+                            'PRNUCompare'. The normalized cross correlation scores of these eight PRNU patterns are then
+                            compared to one another. For each video, the changes in correlation scores and the average
+                            correlation score are determined. The findings will be subjected to a Welch's t-test to
+                            determine the statistical significance of the results for Deep fakes and actual videos.
+                            <br><br>
+
+                            The variation in normalized cross correlation scores each video is determined as well as the
+                            mean normalized cross correlation scores per video. There is no link between the video's
+                            authenticity and the variance in correlation scores. There does appear to be a link between
+                            mean correlation scores and video authenticity, with original videos having better mean
+                            normalized cross correlation scores than Deep fakes on average. With a p-value of 5.21105,
+                            the difference in the distribution of mean normalized cross correlation scores is
+                            statistically significant. As a result, PRNU analysis might be useful for detecting Deep
+                            fakes. However, before such an application can be recommended, more study with bigger
+                            datasets is required to establish the association and develop credible likelihood ratios.
+
+                        </p>
+
+                        <br>
+                        <p>Reference:<br> Koopman, M., Rodriguez, A. M., & Geradts, Z. (2018, August). Detection of deep
+                            fake video manipulation. In The 20th Irish machine vision and image processing conference
+                            (IMVIP) (pp. 133-136).</p>
+                        <br>
+                        <a routerLink="../blank" class="article-info">Close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<router-outlet></router-outlet>

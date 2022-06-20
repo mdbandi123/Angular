@@ -1,0 +1,21 @@
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>USER</th>
+            <th>EMAIL</th>
+            <th>WEBSITE</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let i of http">
+
+            <td>{{i.id}}</td>
+            <td>{{i.name}}</td>
+            <td>{{i.username}}</td>
+            <td>{{i.email}}</td>
+            <td>{{i.website}}</td>
+        </tr>
+    </tbody>
+</table>

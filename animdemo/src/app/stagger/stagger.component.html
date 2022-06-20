@@ -1,0 +1,9 @@
+<button (click)="toggle()">Show/Hide</button>
+
+<hr>
+
+<div [@listAnimation]="items.length">
+    <div *ngFor="let i of items">
+        <p>{{i}}</p>
+    </div>
+</div>

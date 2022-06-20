@@ -1,0 +1,160 @@
+.contact {
+    padding: 0 0 130px 0;
+    background: #09081e;
+}
+
+.contact h2 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #DC145C;
+    margin-bottom: 60px;
+}
+
+.contact .form-control {
+    padding: 25px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: #fcf2f2;
+    border: 0;
+    border-radius: 5px;
+}
+
+.contact button.btn {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    background: #DC145C;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.5s;
+}
+
+.contact button.btn:hover {
+    background: #c20e50;
+    transition: 0.5s;
+}
+
+.contact .info {
+    padding-left: 40px;
+}
+
+.contact .info span {
+    font-size: 20px;
+    color: #FCFF60;
+}
+
+.contact .info p {
+    font-size: 14px;
+    margin: 10px 0 20px 0;
+    color: #eee;
+}
+
+.fa-phone, .fa-map-marker, .fa-envelope{
+    margin-right: 6%;
+}
+
+@media (max-width: 575.99px) {
+    .slider {
+        height: calc(100vh - 80px);
+        margin-top: 80px;
+    }
+
+    .slider img {
+        display: none;
+    }
+
+    .navbar {
+        padding: 20px;
+    }
+
+    .animated-headlines .cd-headline span {
+        font-size: 30px;
+    }
+    .about-me {
+        padding: 130px 25px;
+    }
+    .about-me img {
+        margin-bottom: 30px;
+    }
+    .about-me .btn-1 {
+        margin-bottom: 30px;
+    }
+
+    .some-facts .items h4 {
+        margin-bottom: 30px;
+    }
+
+    .blog .box {
+        margin-bottom: 30px;
+    }
+
+    .contact .info {
+        padding: 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 767.98px) {
+     .slider {
+        height: calc(100vh - 80px);
+        margin-top: 80px;
+     }
+
+    .slider .left-content {
+        padding: 0;
+        margin: 0;
+    }
+
+    .animated-headlines .cd-headline span {
+        font-size: 30px;
+    }
+    .about-me img {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .some-facts .items h4 {
+        margin-bottom: 30px;
+    }
+
+    .blog .box {
+        margin-bottom: 30px;
+    }
+
+    .contact .info {
+        padding: 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .animated-headlines .cd-headline span {
+        font-size: 30px;
+    }
+
+    .slider .left-content {
+        padding: 140px 0;
+    }
+
+    .some-facts .items h4 {
+        margin-bottom: 30px;
+    }
+
+    .blog .box {
+        margin-bottom: 30px;
+    }
+
+    .blog {
+        padding-bottom: 90px;
+    }
+
+    .about-me img {
+        display: none;
+    }
+}
+
+@media (max-width: 1199.98px) {
+}

@@ -1,0 +1,32 @@
+<hr>
+<h2>Gradebook Page</h2>
+
+<img src={{imageUrl}}/>
+<hr> 
+<p><input type="text" [(ngModel)]="studName" class= "form-control" placeholder = "Name" /></p>
+<p><input type="number" [(ngModel)]="prelim" class= "form-control" placeholder = "Prelim" /></p>
+<p><input type="number" [(ngModel)]="midterm" class= "form-control" placeholder = "Midterm" /></p>
+<p><input type="number" [(ngModel)]="final" class= "form-control" placeholder = "Final" /></p>
+<hr>
+
+<p> Hello, {{studName}}</p>
+<p> Prelim grade: {{prelim}}</p>
+<p> Midterm grade: {{midterm}}</p>
+<p> Final grade: {{final}}</p>
+
+<p>Average: {{(prelim+midterm+final)/3}}</p>
+
+<hr>
+
+<div *ngIf="isLogIn">Display this data</div>
+
+<div *ngIf="isLogIn; else isLogOut">Hello you are logged in</div>
+<ng-template #isLogOut> Logged out</ng-template>
+
+<ul>
+    <li *ngFor="let I of list">{{I}}</li>
+</ul>
+
+<ul>
+    <li *ngFor="let std of studentArr;trackBy:trackByData">{{std.name}}</li>
+</ul>

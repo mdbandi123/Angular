@@ -1,0 +1,13 @@
+mat-slider,
+p {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
